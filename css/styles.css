@@ -12,7 +12,7 @@
   .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background: #038f9f;
     color: white;
   }
   
@@ -71,7 +71,7 @@
   .side {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: #c8c8c8;
     padding: 20px;
   }
   
@@ -79,7 +79,7 @@
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     padding: 20px;
   }
   
