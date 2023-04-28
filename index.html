@@ -2,31 +2,27 @@
 <html lang="en">
 
 <head>
-    <title>MyPortfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Header with Navigation Bar</title>
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
+  <div class="navbar">
+      <a href='#contact'>Contact</a>
+      <a href="#cv">CV</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#aboutme">About me</a>
+  </div>
 
-   
-
-  <header>
-  
-    <div class="header-background"></div>
-    <div class="header-content">
-      <h1>Ruben Coopman</h1>
-      <p class="header-description"> <span class="header-description-highlight">Emerging Technologies</span></p>
-    </div>
-  </header>
-
-
-
+  <div class="header">
+      <h1>Emerging Tech </h1>
+      <p>Ruben Coopman</p>
+  </div>
     <div class="row">
         <div class="side">
-            <h2>About Me</h2>
+            <a id="aboutme"> <h2>About Me</h2> </a>
             <img src="img/20230307_185446.jpg" alt="RubenCoopman" style="height: 400px;">
             <p>Hello my name is Ruben Coopman, I am a student industrial engineering at the university of Ghent.</p>
             <h3>Extra Info </h3>
@@ -40,6 +36,7 @@
         <div class="main">
         
             <br>
+            <a id="portfolio"></a>
             <section id="portfolio">
                 <div class="container">
                   <h2>Portfolio</h2>
@@ -76,7 +73,7 @@
                 </div>
               </section>
                             
-            <h2>CV</h2>
+              <a id="cv"> <h2>CV</h2> </a>
             <p>Hieronder is mijn CV te vinden.</p>
             <img src="img/CV.png" alt="cv" style="height: 700px;">
             
@@ -84,7 +81,7 @@
     </div>
 
     <div class="footer">
-        <h2>Contact Info:</h2>
+        <a id="contact"></a> <h2>Contact Info:</h2>
         <p>Email: Ruben.Coopman@ugent.be</p>
     </div>
 
