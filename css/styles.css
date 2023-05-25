@@ -9,12 +9,12 @@
     
   }
 
-  /* Header/logo Title */
+  /* Header/logo Title achtergrond */
   .header {
     padding: 80px;
-    text-align: center;
     color: rgb(255, 255, 255);
-    background-image:url(/img/achtergrond.jpg) ;
+    text-align: center;
+    background-image:url("/img/achtergrond.jpg") ;
     background-size: cover;
     background-position: center;
   }
