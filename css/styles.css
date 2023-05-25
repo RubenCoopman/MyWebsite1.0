@@ -286,7 +286,7 @@ navbarP5JS {
 }
 
 .navbarP5JS a {
-  float: left;
+  float: center ;
   display: block;
   color: white;
   text-align: center;
@@ -345,4 +345,4 @@ li {
   margin-bottom: 10px;
 }
 
-/* Additional styling as needed */
+
