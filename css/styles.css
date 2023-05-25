@@ -13,7 +13,7 @@
   .header {
     padding: 80px;
     text-align: center;
-    background-image: url(/img/backdrop.jpg);
+    background-image: url(backdrop.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
