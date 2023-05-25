@@ -13,10 +13,7 @@
   .header {
     padding: 80px;
     color: rgb(255, 255, 255);
-    text-align: center;
-    /* vlak achtergrond kleur als vervanging van afbeelding
-    (de aflbeelding werkt via live server maar niet via github*/
-    
+    text-align: center; 
     background-image:url('achtergrond.jpg') ;
     background-size: cover;
     background-position: center;
